@@ -1,0 +1,30 @@
+body{
+    place-items: center;
+    background-color: beige;
+}
+
+.container{
+    width: 100w;
+    height: 100h;
+    place-items: center;
+    align-content: center;
+}
+
+.moon{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    position: relative;
+    transform: rotate(-35deg);
+}
+
+.moon:after{
+    content: "";
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: beige;
+    position: absolute;
+    right: -66px;
+}
